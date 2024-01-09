@@ -1,0 +1,71 @@
+<style>
+body, html {
+    
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .main-container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url('https://p2.piqsels.com/preview/650/447/707/business-close-up-desk-home-office.jpg');
+    background-size: cover;
+    color: white;
+  }
+  
+  .content-container {
+    margin: 20px;
+    background: rgba(10, 244, 244, 0.5);
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #fefe2f;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e80f0f;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
