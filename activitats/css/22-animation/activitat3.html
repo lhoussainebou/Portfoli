@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aviso de Cookies</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  #cookieConsent {
+    position: fixed;
+    bottom: -100px; /* Empezamos fuera de la pantalla */
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+    transition: bottom 1s; 
+  }
+
+  #cookieConsent button {
+    background: #66cff0;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+
+<div id="cookieConsent">
+  Este sitio utiliza cookies para mejorar la experiencia de usuario. <a href="#" style="color:#f1d600;">Leer más</a>.
+  <button onclick="hideCookieBanner()">Aceptar</button>
+</div>
+
+<script>
+ 
+  setTimeout(function() {
+    document.getElementById('cookieConsent').style.bottom = '0'; 
+  }, 3000);
+
+  
+  function hideCookieBanner() {
+    document.getElementById('cookieConsent').style.bottom = '-100px'; /
+  }
+</script>
+
+</body>
+</html>
