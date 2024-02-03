@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento HTML con Hipervínculos</title>
-    <style>
-       
-        :root {
-            --miColor: #0b8fe8; 
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+:root {
+--color-tema: #3498db; 
+}
 
-        
-        h1, a {
-            color: var(--miColor);
-        }
-    </style>
+h1, a {
+color: var(--color-tema); 
+}
+
+a:hover {
+color: darken(var(--color-tema), 10%); 
+}
+</style>
 </head>
 <body>
-
-    <h1> el Título</h1>
-
-    <p>
-        <a href="https://www.google.com" >hipervínculos</a>.
-      <a href="https://www.facebook.com" >este enlace</a> o
-        <a href="https://www.instagram.com" target="_blank">este otro enlace</a>.
-    </p>
+<h1> Título</h1>
+<p> un párrafo con  <a href="https://www.ejemplo.com">hipervínculos</a>
+<br>   
+<a href="https://www.otroejemplo.com">enlace</a>.</p>
     
 
+    
 </body>
 </html>
