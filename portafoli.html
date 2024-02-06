@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barra de Navegación</title>
+<style>
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+.navbar {
+    background-color: #356afb;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 4px 6px #15daecdf;
+}
+
+.name {
+    font-size: 24px;
+    margin-left: 20px;
+   
+}
+
+.name span {
+    color: white;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.nav-items a:hover {
+    background-color: #77dffccf;
+}
+
+
+</style>
+</head>
+<body>
+<div class="navbar">
+    <div class="name"><span>Lhoussaine <br> Boutkhamouine</span></div>
+    <div class="nav-items">
+        <a href="#">Activitats</a>
+        <a href="corriculum vitae.html">Curriculum vitae</a>
+        <a href="#">contact</a>
+    </div>
+</div>
+
+
+
+</body>
+</html>
