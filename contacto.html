@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Form</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #b4f1f4;
+  }
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  .contact-section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgb(62, 87, 251);
+    width: 50%;
+  }
+  header {
+    margin-bottom: 30px;
+  }
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .info-item img {
+    margin-right: 10px;
+    height: 20px;
+    padding-left: 15px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-field {
+    border: none;
+    border-bottom: 1px solid #5cdbf5;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .send-btn {
+    border: none;
+    background-color: #383bff;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+    align-self: center;
+    box-shadow: 0 2px 5px rgb(124, 243, 227);
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+    .contact-section {
+      width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="contact-container">
+<div class="contact-section">
+<header>
+<h2>Contact Me</h2>
+<div class="info-item">
+<img src="https://www.nicepng.com/png/full/207-2071241_imagenes-de-logo-de-telefono.png" alt="Phone">
+<span>643270654</span>
+</div>
+<div class="info-item">
+<img src="https://iconape.com/wp-content/uploads/1/11/gmail-02.png" alt="Email">
+<span>lboutkham@insaparrella.cat</span>
+</div>
+<div class="info-item">
+<img src="https://1.bp.blogspot.com/-voxe9bOIWX0/Xz3_iQdro1I/AAAAAAAAAO4/P8GY-o4w5SMnzZVYv5B8HipWPLYR4jG2wCLcBGAsYHQ/s2048/logo%2Bmaps%2Byogiancreative.png" alt="Location">
+<span>AVDA ARTESA 47</span>
+</div>
+</header>
+<div class="contact-form">
+<input type="text" class="form-field" placeholder="Nombre Completo">
+<input type="email" class="form-field" placeholder="Email Address">
+<textarea class="form-field" placeholder="Mensaje" rows="4"></textarea>
+<button class="send-btn">Send Message</button>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
