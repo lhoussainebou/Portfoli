@@ -7,8 +7,8 @@
 <style>
 body, html {
     font-family: Arial, sans-serif;
-    background-color: aliceblue;
     height: 100%;
+    background-image: url(file:///C:/Users/lhous/Downloads/8c75f0e6-0895-4d3e-b8dd-556945040392.webp);
 }
 
 .lhou {
@@ -47,6 +47,76 @@ body, html {
 
 
 
+  
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.greeting {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #f1380f;
+}
+  
+.name {
+    font-size: 3,2em;
+    margin-bottom: 0.5em;
+    color: #ee5b1c;
+}
+  
+.title {
+    font-size: 3em;
+    margin-bottom: 2em;
+    color: #f05209;
+}
+  
+  
+.button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgb(246, 103, 15);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+  
+.button:hover {
+    background-color: rgb(88, 124, 244);
+    color: #1a1a1a;
+}
+footer {
+  background-color: hsl(256, 95%, 65%);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  color: rgb(17, 13, 242); 
+  font-size: 24px; 
+  transition: color 0.3s ease;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: #100cf5; 
+  text-decoration: none;
+}
+
+
 </style>
 </head>
 <body>
@@ -60,8 +130,27 @@ body, html {
 </div>
 </div>
 </nav>
+<br>
+<div class="container">
+    <div class="greeting">HOLA, MUNDO.</div>
+    <div class="name">Soy Lhoussaine Boutkhamouine.</div>
+    <div class="title">SMIX CA| HTML+CSS</div>
+    <a href="corriculum vitae.html" class="button"> Acerca de mí</a>
+  </div>
 
-
+  <footer>
+    <div class="social-footer">
+      <a href="https://www.instagram.com/lhoussaine_l_l?igsh=dzQ2dnR2bXB5emM=" class="social-link">Instagram
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/login/" class="social-link"> Facebook
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/?lang=fr" class="social-link"> Twitter.X
+        <i class="fas fa-twiter"></i> 
+      </a>
+    </div>
+  </footer>
 
 
 
