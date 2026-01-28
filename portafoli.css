@@ -1,0 +1,113 @@
+
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+   
+}
+
+.lhou {
+    background-color: #356afb;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 4px 6px #15daecdf;
+}
+
+.name {
+    font-size: 24px;
+    margin-left: 20px;
+   
+}
+
+.name span {
+    color: white;
+}
+
+.lhou-items a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.lhou-items a:hover {
+    background-color: #c8e7f0cf;
+}
+
+
+
+  
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.greeting {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #f1380f;
+}
+  
+.name {
+    font-size: 3,2em;
+    margin-bottom: 0.5em;
+    color: #ee5b1c;
+}
+  
+.title {
+    font-size: 3em;
+    margin-bottom: 2em;
+    color: #f05209;
+}
+  
+  
+.button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgb(246, 103, 15);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+  
+.button:hover {
+    background-color: rgb(88, 124, 244);
+    color: #1a1a1a;
+}
+footer {
+  background-color: hsl(256, 95%, 65%);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  color: rgb(17, 13, 242); 
+  font-size: 24px; 
+  transition: color 0.3s ease;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: #100cf5; 
+  text-decoration: none;
+}
+
+
